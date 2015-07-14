@@ -1,0 +1,60 @@
+#page-heading.with-sub-heading {
+  margin-bottom: 0px;
+}
+
+.sub-heading {
+  margin-top: 0px;
+}
+
+.images {
+  width: 100%;
+  text-align: center;
+}
+
+.images img {
+  width: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 10px;
+  border: 0.5px solid black;
+}
+
+.images img:hover {
+  transform: scale(1.3, 1.3);
+  transition: 4s;
+}
+
+#introduction, #ingredients, #instructions{
+  border: 2px solid black;
+  padding-left:10px;
+  margin-top:20px;
+  border-radius:10px;
+} 
+
+#ingredients ul {
+  list-style: none;
+  width: 25%;
+  padding-left:20px;
+}
+
+#ingredients ul li {
+  margin-bottom: 5px;
+  padding: 3px;
+}
+
+#ingredients ul li.got {
+  background-color: #7887AB;
+}
+
+#instructions ol{
+  width: 30%;
+}
+
+#instructions ol li {
+  padding: 5px;
+}
+
+#instructions ol li.completed {
+  background-color: #88CC88;
+}
